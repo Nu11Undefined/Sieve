@@ -110,6 +110,7 @@ namespace Решето_Эратосфена.Models
                 }
             }
         }
+        // Радианы -> градусы
         public static float ToDegree(double rad)
         {
             return (float)(rad * 180.0 / Math.PI);
